@@ -37,6 +37,8 @@ function App() {
 
   useEffect(() => {
     testLogger();
+    console.log(process.env);
+    
   }, []);
 
   return (
