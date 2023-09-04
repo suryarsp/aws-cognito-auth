@@ -18,12 +18,12 @@ You can find your user pool ID and client ID in the AWS Cognito console.
 
 Once you have added the environment variables, you can start the development server and sign in to your application.
 
-Follow this link for more detailed information, [user-pool-settings-client-app](https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-settings-client-apps.html)
+Follow this link for more detailed information, [authenticate react app using AWS cognito and AWS Amplify](https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/authenticate-react-application-users-by-using-amazon-cognito-and-aws-amplify.html)
 
 ### Step 1: Create a new Vite project
 
 ```bash
-npm create vite@latest aws-cognito-auth -- --template react && cd aws-cognito-auth
+npm create vite@latest aws-cognito-auth --template react && cd aws-cognito-auth
 ```
 
 ### Step 2: Install dependencies
